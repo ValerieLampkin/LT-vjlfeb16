@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: LT-vjlfeb16
+  host: LT-vjlfeb16
+  disk_quota: 1024M
+  services:
+  - LT-vjlfeb16-cloudantNoSQLDB
+  - Language Translator-vjl
